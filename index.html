@@ -6,98 +6,95 @@
         <title>Pose - Technical &amp; Logical Interview Questions</title>
         <meta name="description" content="Pose provides businesses with technical &amp; logical interview questions. We ensure that our interview questions are up-to-date, relevant, and tailored to the needs of your enterprise.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/skeleton.css">
-        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/main.css">
+      
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <header class="header">
-          <h1>Pose</h1>
-        </header>
+      <!-- Add your site or application content here -->
+      <header class="header">
+        <h1>Pose</h1>
+      </header>
 
-        <div class="section main">
-          <div class="container">
-            <div class="row">
-              <div class="column">
-                <div>
-                  <span class="main-line">
-                    <h5 class="inline">I need questions for a</h5>
-                  </span>
-                  <span class="main-line">
-                  <h5 id="role" class="options" data-selected="0"
-                    data-options="Recruitment Manager,Full-Stack Dev,Sales Manager,Senior Java Dev,Marketing Intern,Front-End Dev,Data Scientist,Head of Sales,Day Trader,Nanny">Recruitment Manager</h5>
-                  </span>
-                  <span class="main-line">
-                  <h5 class="inline">including</h5>
+      <div class="section main">
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <div>
+                <span class="main-line">
+                  <h5 class="inline">I need questions for a</h5>
                 </span>
                 <span class="main-line">
-                  <h5 id="focus" class="options" data-selected="0"
-                    data-options="logic questions,coding in JavaScript,problem-solving skills,networking &amp; concurrency,influencer marketing,ruby on rails,machine learning,knowledge of our company,forex experience,work experience"
-                  >logic questions</h5>
+                <h5 id="role" class="options" data-selected="0"
+                  data-options="Recruitment Manager,Full-Stack Dev,Sales Manager,Senior Java Dev,Marketing Intern,Front-End Dev,Data Scientist,Head of Sales,Day Trader,Nanny">Recruitment Manager</h5>
                 </span>
-                </div>
-              </div>
-            </div>
-            <div class="row action">
-              <div class="column">
-                <h5 class="subtext">Custom &amp; contemporary industry-level questions, straight to your inbox</h5>
-                <h5>Receive monthly questions &amp; answers on your chosen topics<span class="price-middle"> for </span>$5<span class="little-text">/month</span></h5>
-                <form action="//app.mailerlite.com/webforms/submit/j7c7n9" data-id="229715" data-code="j7c7n9" method="POST" class="signup">
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_57a168da9090880d902fcda20_0a18abed53" tabindex="-1" value=""></div>
-                  <input class="form-input" id="email" type="email" name="EMAIL" placeholder="Your email address"/>
-                  <input class="form-input button button-primary" type="submit" value="sign me up" />
-                  <input type="hidden" name="ml-submit" value="1" />
-                </form>
+                <span class="main-line">
+                <h5 class="inline">including</h5>
+              </span>
+              <span class="main-line">
+                <h5 id="focus" class="options" data-selected="0"
+                  data-options="logic questions,coding in JavaScript,problem-solving skills,networking &amp; concurrency,influencer marketing,ruby on rails,machine learning,knowledge of our company,forex experience,work experience"
+                >logic questions</h5>
+              </span>
               </div>
             </div>
           </div>
+          <div class="row action">
+            <div class="column">
+              <h5 class="subtext">Custom &amp; contemporary industry-level questions, straight to your inbox</h5>
+              <h5>Receive monthly questions &amp; answers on your chosen topics<span class="price-middle"> for </span>$5<span class="little-text">/month</span></h5>
+              <form action="//app.mailerlite.com/webforms/submit/j7c7n9" data-id="229715" data-code="j7c7n9" method="POST" class="signup">
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_57a168da9090880d902fcda20_0a18abed53" tabindex="-1" value=""></div>
+                <input class="form-input" id="email" type="email" name="EMAIL" placeholder="Your email address"/>
+                <input class="form-input button button-primary" type="submit" value="sign me up" />
+                <input type="hidden" name="ml-submit" value="1" />
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script>
-          var $options = $('.options')
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+      <script>
+        var $options = $('.options')
 
-          function changeOptions() {
-            $options.each(function() {
-              var $el = $(this);
-              var selected = Number($el.attr('data-selected'));
-              var options = $el.attr('data-options').split(',');
-              var next = selected + 1 >= options.length ? 0 : selected + 1;
+        function changeOptions() {
+          $options.each(function() {
+            var $el = $(this);
+            var selected = Number($el.attr('data-selected'));
+            var options = $el.attr('data-options').split(',');
+            var next = selected + 1 >= options.length ? 0 : selected + 1;
 
-              $el
-                .css({
-                  'opacity': '0'
-                })
-                .text(options[next])
-                .animate({
-                  'opacity': '1'
-                })
-                .attr('data-selected', next)
-            })
-          }
+            $el
+              .css({
+                'opacity': '0'
+              })
+              .text(options[next])
+              .animate({
+                'opacity': '1'
+              })
+              .attr('data-selected', next)
+          })
+        }
 
-          setInterval(changeOptions, 3000)
-        </script>
+        setInterval(changeOptions, 3000)
+      </script>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-87986051-1', 'auto');
-          ga('send', 'pageview');
-        </script>
+        ga('create', 'UA-87986051-1', 'auto');
+        ga('send', 'pageview');
+      </script>
     </body>
 </html>
